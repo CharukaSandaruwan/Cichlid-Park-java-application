@@ -166,8 +166,8 @@ img.aligncenter {
 /* Menu */
 
 #menu-wrapper {
-	width: 980px;
-	height: 60px;
+	width: 1000px;
+	height: 65px;
 	margin: 0px auto;
 	padding: 0px;
 	background: #085895;
@@ -467,6 +467,25 @@ img.aligncenter {
   text-align: center;
   text-decoration: none;
 }
+.btn{
+    border-radius: 12px;
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+ /* display: inline-block;
+  font-size: 16px;*/
+}
+#sidebar-bg{
+    margin-top: 50px;
+    padding-left:-300px;
+    width:400px;
+}
+#sidebar{
+   width:400px; 
+}
 
 /* Add a hover effect if you want */
 .fa:hover {
@@ -479,4 +498,23 @@ img.aligncenter {
 .fa-facebook {
   background: #3B5998;
   color: white;
+}
+#content{
+    padding-top: 80px;
+    padding-right: 100px;
+    margin-right:120px; 
+}
+.res{
+    hight:50px;
+    margin-bottom: 25px;
+     margin-top: 20px;
+     margin-left: 125px  ;  
+}
+.panel-body{
+    content:center;
+    padding-left: 50px;
+}
+.btn-res{
+    margin-left: 400px  ;
+   background-color:blue;
 }
